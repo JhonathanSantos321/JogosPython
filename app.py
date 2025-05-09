@@ -2,7 +2,7 @@
 import numpy as  NumPy
 
 # Criando um array NumPy unidimensional a partir de uma lista
-array = np.array([1, 2, 3, 4,  5])
+array = NumPy.array([1, 2, 3, 4,  5])
 print("Array:", array)
 
 #Acessando elementos do array:
@@ -45,3 +45,24 @@ print("Tupla", my_tuple)
 # Acesso a elementos funciona igual a listas
 print("primeiro elemento da tupla:", my_tuple[0])
 print("Ultimo elemento da tupla:", my_tuple[-1])
+
+# Loops (estruturas de repetiçao)
+
+# Loop for iterando sobre elementos de uma lista
+fruits = ["maça","banana", "morango"]
+print("Frutas na lita:")
+for fruit in fruits:
+      print(fruit)
+
+      # Loop while executando enquanto condiçao é verdadira
+      print("Contagem de 0 a 4:")
+      i = 0
+      while i < 5:
+            print(i)
+            i += 1  # Incrementa o contador
+
+# Loop for com acesso ao indice e elemento simultaneamente usando enumerate
+print("Elemenos da lista com seus indices:")
+my_list = [1, 2, 3, 4, 5]
+for indice, elemento in enumerate(my_list):
+      print(f"indice {indice}: {elemento}")
