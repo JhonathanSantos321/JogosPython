@@ -70,7 +70,6 @@ def is_victory(icon):
         (board[1] == icon and board[4] == icon and board[7] == icon) or
         (board[2] == icon and board[5] == icon and board[8] == icon) or
         
-print("Último elemento:", array[-1])
 
         # Vitórias diagonais
         (board[0] == icon and board[4] == icon and board[8] == icon) or
