@@ -50,8 +50,8 @@ def jogo_da_forca():
             tentativas_restantes -= 1         # Reduz o número de tentativas
             
             # Feedback imediato para o jogador
-            print(f"\nLetra incorreta! Tentativas restantes:
-      {tentativas_restantes}")
+            print(f"\nLetra incorreta! Tentativas restantes: {tentativas_restantes}")
+    
         if letras_erradas:  # Só mostra se houver letras erradas
                 print(f"Letras erradas: {', '.join(letras_erradas)}")
 
@@ -66,6 +66,3 @@ def jogo_da_forca():
 # Inicia o jogo quando o script é executado
 if __name__ == "__main__":
     jogo_da_forca()
-                
-           
-            
